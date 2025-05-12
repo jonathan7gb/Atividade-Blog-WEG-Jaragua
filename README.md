@@ -1,3 +1,5 @@
+<h1>Blog Jaraguá Futsal - Atividade da UC Programação Front-end</h1>
+
 Objetivo: Nesta atividade, você irá aplicar seus conhecimentos sobre o modelo de caixa (box model) e a diferença entre elementos block e inline para criar a estrutura inicial de um blog sobre um tema de seu interesse. O foco será na construção da página inicial, que incluirá chamadas para 4 artigos distintos, organizados em 2 linhas.
 
 Instruções:
