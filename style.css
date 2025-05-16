@@ -8,11 +8,13 @@ html, body {
 body{
     font-family: "Cal Sans", sans-serif;
     font-style: normal;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 
 main {
     flex: 1;
+    padding-bottom: 50px; /* Isso empurra o conteúdo antes do footer */
+
 }
 
 .Pagina{
@@ -22,26 +24,30 @@ main {
 }
 
 .Cabecalho{
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    height: 16%;
-    margin-top: 0%;
+    background-color: black;
+    width: 1000;
+    height: 15%;
     margin-bottom: 2%;
-    border-bottom: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid #FFCC00;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .Cabecalho .logoJaragua{
     width: 8%;
     position: relative;
     left: 1%;
+    padding-bottom: 1%;
+    padding-top: 0.5%;
 }
 
 .Cabecalho .textoCabecalho{
-    color: rgb(255, 255, 255);
+    background: linear-gradient(90deg, #D1A700 0%, #FC0 31.25%, #FFF 76.44%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -63,29 +69,42 @@ main {
     margin: 0;
 }
 
+.hamburguer{
+    width: 20px;
+    height: 20px;
+    margin-left: 2%;
+    position: absolute;
+    padding: 2px;
+    margin-top: 3%;
+}
+
 .artigos{
     display: grid;
     grid-template-columns: repeat(2, 45%); /* 2 colunas iguais */
     gap: 2%;
     row-gap: 3%;
     justify-content: center;
-    margin-top: 2%;
+    margin-top: 4%;
     margin-bottom: 5%;
 }
 
 .artigos .artigo01, .artigos .artigo02, .artigos .artigo03, .artigos .artigo04, .artigos .artigo05, .artigos .artigo06{
-    border: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid #D1A700;
+    border-right: 2px solid #D1A700;
     width: 100%;
+    height: 170px;
     display: flex;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
 }
 
 .artigos .imgJogo{
     width: 35%;
     height: 100%;
     margin-right: 5%;
+    border-top-left-radius: 3px;
 }
 
 .artigos .textoArtigo, .artigo03, .artigo04, .artigo05, .artigo06{
@@ -96,24 +115,32 @@ main {
 
 .artigos .tituloArtigo{
     margin-bottom: 2%;
+    background: linear-gradient(90deg, #D1A700 0%, #FC0 11.25%, #FFF 86.44%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .artigos .resumoArtigo{
     margin-bottom: 0%;
     font-size: 14px;
     margin-right: 3%;
+    background: linear-gradient(90deg, #D1A700 0%, #FC0 11.25%, #FFF 86.44%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .artigos .leiaMais{
     font-size: 12px;
-    background-color:rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    background-color:#000000;
+    color: #D1A700;
     border-radius: 10%;
     padding: 1.2%;
-    border: 1px solid black;
     margin-top: -4%;
     text-decoration: none;
     transition: color 0.7s ease;
+    border: 1px solid #D1A700;
     transition: background-color 0.7s ease;
     position: absolute;
     bottom: 0%;
@@ -123,14 +150,16 @@ main {
 
 .leiaMais:hover{
     font-size: 12px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(202, 202, 202);
+    background-color: #D1A700;
+    color: #000000;
+    border: 1px solid #000000;
 }
 
 .artigos div:hover{
     transform: scale(1.00);
     cursor: pointer;
-    background-color: rgb(202, 202, 202);
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
 }
 
 .texto:hover{
@@ -142,8 +171,9 @@ main {
 
 .footerBlog {
     background-color: black;
-    color: white;
+    color: #FFCC00;
     padding: 50px 10%;
+    border-top: 1px solid #FFCC00;
 }
 
 .footerBlog .textos {
@@ -203,38 +233,57 @@ main {
 
 .tituloPagina h1{
     font-size: 40px;
-    margin-bottom: 1%;
+    margin-bottom: 0%;
+    margin: 0;
+    background: linear-gradient(90deg, #D1A700 0%, #FC0 11.25%, #FFF 86.44%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .tituloPagina p{
     font-size: 15px;
     margin-bottom: 2%;
     line-height: 1.5;
+    color: #ffe788;
 }
 
 .tituloPagina h2{
     font-size: 19px;
-    margin-bottom: 1%;
+    background: linear-gradient(90deg, #D1A700 0%, #FC0 11.25%, #FFF 86.44%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .tituloPagina span{
     font-size: 15px;
     margin-bottom: 1%;
     display: inline-block;
+    color: #ffe788;
+    margin: 0;
 }
 
 .imgArtigo img{
     width: 500px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.415);
     border: 1px solid black;
+    border-radius: 5px;
 }
 
 .parteCima{
     margin-bottom: 5%;
+    color: white;
 }
 
 
 .seta{
     width: 1%;
+    height: 2%;
     margin-left: 1%;
+    position: absolute;
+    border: 1px solid #D1A700;
+    background-color: #D1A700;
+    padding: 2px;
+    border-radius: 10px;
 }
