@@ -60,12 +60,14 @@ main {
 .Cabecalho .tituloBlog{
     font-size: 35px;
     margin: 0;
+    letter-spacing: 1px;
 }
 
 .Cabecalho .descricaoBlog{
     margin-top: 0.3%;
     font-size: 12px;
     margin: 0;
+    letter-spacing: 0.5px;
 }
 
 .hamburguer{
@@ -118,6 +120,7 @@ main {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
 }
 
 .artigos .resumoArtigo{
@@ -128,6 +131,7 @@ main {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    letter-spacing: 0.5px;
 }
 
 .artigos .leiaMais{
@@ -170,32 +174,32 @@ main {
 
 .footerBlog {
     background-color: black;
-    color: #FFCC00;
+    color: white;
     padding: 50px 10%;
     border-top: 1px solid #FFCC00;
 }
 
 .footerBlog .textos {
     display: flex;
-    justify-content: space-between; /* Espaço igual entre os 3 blocos */
-    align-items: center;            /* Centraliza verticalmente */
-    flex-wrap: wrap;                /* Quebra se tiver pouco espaço (pra responsivo) */
-    gap: 30px;                      /* Espaço entre blocos, ajustável */
+    justify-content: space-between; 
+    align-items: center;            
+    flex-wrap: wrap;                
+    gap: 30px;                     
 }
 
 .footerBlog .Texto {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;                      /* Espaço entre o ícone e o texto */
-    flex: 1;                        /* Todos ocupam o mesmo espaço */
+    gap: 10px;                     
+    flex: 1;                       
     text-align: center;
 }
 
 .footerBlog .Texto img {
     width: 28px;
     height: 28px;
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 50%;
     padding: 4px;
 }
@@ -238,29 +242,30 @@ main {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
 }
 
 .tituloPagina p{
     font-size: 15px;
     margin-bottom: 2%;
     line-height: 1.5;
-    color: #ffe788;
+    color: #ffffff;
+    letter-spacing: 0.5px;
 }
 
 .tituloPagina h2{
     font-size: 19px;
-    background: linear-gradient(90deg, #D1A700 0%, #FC0 11.25%, #FFF 86.44%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
+    letter-spacing: 1px;
 }
 
 .tituloPagina span{
     font-size: 15px;
     margin-bottom: 1%;
     display: inline-block;
-    color: #ffe788;
+    color: #ffffff;
     margin: 0;
+    letter-spacing: 0.5px;
 }
 
 .imgArtigo img{
