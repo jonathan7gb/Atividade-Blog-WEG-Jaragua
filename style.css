@@ -106,6 +106,7 @@ main {
     height: 100%;
     margin-right: 5%;
     border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
 
 .artigos .textoArtigo, .artigo03, .artigo04, .artigo05, .artigo06{
