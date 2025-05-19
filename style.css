@@ -159,37 +159,37 @@ main {
 }
 
 .artigos .artigo01:hover{
-    transform: scale(1.02);
+    transform: scale(1.01);
     cursor: pointer;
     background-color: rgb(0, 0, 0);
     border-radius: 5px;
 }
 .artigos .artigo02:hover{
-    transform: scale(1.02);
+    transform: scale(1.01);
     cursor: pointer;
     background-color: rgb(0, 0, 0);
     border-radius: 5px;
 }
 .artigos .artigo03:hover{
-    transform: scale(1.02);
+    transform: scale(1.01);
     cursor: pointer;
     background-color: rgb(0, 0, 0);
     border-radius: 5px;
 }
 .artigos .artigo04:hover{
-    transform: scale(1.02);
+    transform: scale(1.01);
     cursor: pointer;
     background-color: rgb(0, 0, 0);
     border-radius: 5px;
 }
 .artigos .artigo05:hover{
-    transform: scale(1.02);
+    transform: scale(1.01);
     cursor: pointer;
     background-color: rgb(0, 0, 0);
     border-radius: 5px;
 }
 .artigos .artigo06:hover{
-    transform: scale(1.02);
+    transform: scale(1.01);
     cursor: pointer;
     background-color: rgb(0, 0, 0);
     border-radius: 5px;
