@@ -109,12 +109,13 @@ main {
   }
   
   .sidebar ul li a:hover {
-    background-color: #b08d01;
+    background-color: #d1a803;
   }
   
   .sidebar.active {
     left: 0; 
   }
+
 
 .artigos{
     display: grid;
